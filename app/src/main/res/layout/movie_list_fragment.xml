@@ -1,0 +1,13 @@
+ <GridView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gridView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MoviePostersFragment"
+    android:columnWidth="@android:dimen/thumbnail_width"
+    android:numColumns="2"
+    android:adjustViewBounds="true"
+    android:stretchMode="columnWidth"
+    android:clipChildren="true"
+    android:gravity="center" />
